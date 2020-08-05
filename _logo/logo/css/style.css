@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#111111;
+    background-color:#f1f1f1;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-weight:400;
+}
+h1{font-size:4rem;}
+h2{font-size:3.5rem;}
+h3{font-size:3rem;}
+h4{font-size:2.5rem;}
+h5{font-size:2rem;}
+h6{font-size:1.5rem;}
+
+blockquote{
+    font-family: 'Share Tech Mono', monospace;
+    padding:20px 20px 20px 40px;
+    background-color:#001f3f;
+    color:#f1f1f1;
+}
+.italic{font-style:italic;}
+
+.light{font-weight:300;}
+.bold{font-weight: 700;}
+.superBold{font-weight: 900;}
+
+table{width:100%; max-width:500px;border-collapse: collapse;}
+th, td{padding:10px;border:1px solid #111111;}
+th{background-color:#777777;}
+
+
+/*--- Logo ---*/
+#overBg{
+    width:100%;
+    height:100vh;
+    background-color:#f1f1f1;
+    position:absolute;
+    z-index:5;
+}
+#logo{
+    font-family: 'Share Tech Mono', monospace;;
+    color:#111;
+    font-size: 300px;
+    line-height: 300px;
+    position:relative;
+    width:100%;
+    height:100vh;
+    z-index:6;
+}
+#logo .container{position:relative;}
+/*#C{
+}
+#logoDroite{
+    display: flex;
+    flex-direction: column;
+    margin-left:-12px;
+}
+#carre{
+    font-size: 6rem;
+    line-height: 6.65rem;
+    -webkit-text-stroke: 2.5px #111;
+}
+#under{
+    font-size: 8rem;
+    line-height: 0rem;
+    transform: scale(.82, 1);
+    margin-left: -8px;
+    margin-top: -7px;
+}*/
+
+.noDisplay{display:none;}
+#logo img{
+    width:200px;
+    height:200px;
+    top:calc(50vh - 150px);
+    position:absolute;
+    transition:none;
+}
+#logoCircleBas, #logoCenter{left:calc(50% - 100px);}
+#logoCircleHaut{right:calc(50% - 100px);}
+
+
+/* logoCenter position: relative;
+display: block;
+top: 0;
+left: 0;
+
+.logoLoader z-index: 5;
+position: relative;*/
